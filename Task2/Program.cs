@@ -11,15 +11,4 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число C: ");
 int c = Convert.ToInt32(Console.ReadLine());
 
-if (c<a & a>b)
-{
-    Console.Write(a);
-}
-if (c<b & b>a);
-{
-    Console.Write(b);
-}
-if (b<c & c>a);
-{
-    Console.Write(c);
-}
+Console.WriteLine(Math.Max(a, Math.Max(b, c)));
